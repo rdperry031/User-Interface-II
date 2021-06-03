@@ -65,6 +65,10 @@ h2{
     font-size: 3rem;
     
 }
+h3{
+    font-size: 3rem;
+    
+}
 .home{
     color:white;
     background-color: black;
@@ -97,12 +101,11 @@ border:solid #4f4f4f;
     width: 45%;
 }
 
-button{
+.projectButton{
     width:40%;
-    margin: 15% 0;
     padding:3%;
     font-size:1.8rem ;
-
+    margin: 10% 0;
 }
 p{
     font-size: 2rem;
@@ -111,17 +114,19 @@ p{
 display: flex;
 justify-content: space-around;
 margin: 10% 4% 10% 8%;
-caption-side: bottom;
+
 }
 .imageGallery2{
     display: flex;
     justify-content: space-around;
-    width:80%;
     margin: 10% 4% 10% 8%;
-    caption-side: bottom;
+    align-items: center;
 }
 img{
     width:75%;
+}
+.imageGallery2 img{
+    width: 85%;
 }
 figcaption{
     text-align: center;
@@ -131,3 +136,26 @@ figcaption{
 figure{
     caption-side: bottom;
 }
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+
+.footerButton{
+     width:30%;
+     margin-bottom: 10%;
+     padding: 2%; 5%;
+     font-size:2rem 
+     }
+     
+     button{
+         transition-duration:0.5s;
+         border: solid 1px black; 
+     }
+     button:hover{
+         background-color: black;
+         color:whitesmoke;
+     }
