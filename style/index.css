@@ -57,3 +57,35 @@ body{
     color: #4f4f4f;
     line-height: 1.5;
 }
+h1{
+    font-size: 5rem;
+    margin:3% 5%;
+}
+
+.home{
+    color:white;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    margin-left: 10%;
+}
+nav a{
+padding:1% 2%;
+width: 8%;
+border:solid #4f4f4f;
+
+}
+.top{
+    display: flex;
+    margin: 4%;
+}
+.myProjects{
+    display: flex;
+    flex-direction: column;
+}
+
+.top img{
+    width: 25%;
