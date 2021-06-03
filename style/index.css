@@ -105,5 +105,29 @@ button{
 
 }
 p{
-    margin: %;
+    font-size: 2rem;
+}
+.imageGallery1{
+display: flex;
+justify-content: space-around;
+margin: 10% 4% 10% 8%;
+caption-side: bottom;
+}
+.imageGallery2{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin: 10% 4% 10% 8%;
+    caption-side: bottom;
+}
+img{
+    width:75%;
+}
+figcaption{
+    text-align: center;
+    width:45%;
+    margin-left: 15%;
+}
+figure{
+    caption-side: bottom;
 }
