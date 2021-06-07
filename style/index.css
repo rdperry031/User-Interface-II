@@ -47,7 +47,7 @@ table {
     margin: 0%;
     padding: 0%;
     max-width: 100%;
-   
+   border:1px solid grey;
 }
 html{
     font-size: 62.5%;
@@ -170,3 +170,36 @@ footer div{
         font-size:1.8rem ;
         margin: 10% 0;
      }
+@media(max-width:800px){
+
+}
+@media(max-width: 500px){
+   header, nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 10%; */
+    text-align: center;
+}
+nav{
+    margin-right: 10%;
+}
+.top, .myProjects{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ margin: 5%
+}
+.myProjects{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+}
