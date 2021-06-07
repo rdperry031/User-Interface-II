@@ -10,3 +10,4 @@ From the images above, chose a wireframe to guide your design for today's projec
 - [ ]  Link navigation items to new HTML pages
 
 Some choices are easier than others, pick something that feels right to you. 
+q
