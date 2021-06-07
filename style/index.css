@@ -47,7 +47,7 @@ table {
     margin: 0%;
     padding: 0%;
     max-width: 100%;
-   border:1px solid grey;
+   /* border:1px solid grey; */
 }
 html{
     font-size: 62.5%;
@@ -186,17 +186,29 @@ footer div{
 nav{
     margin-right: 10%;
 }
-.top, .myProjects{
+.top, .top div{ 
     display: flex;
     flex-direction: column;
  align-items: center;
- margin: 5%
+ margin: 5%;
+ text-align: center;
+ 
 }
-.myProjects{
-    margin-left: 10%;
+p{
+    font-size: 1.2rem;
 }
+.imageGallery1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 
-
+}
+.imageGallery2{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    
+}
 
 
 
