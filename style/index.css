@@ -224,7 +224,11 @@ footer div{
     /* margin-left: 10%; */
     text-align: center;
  }
-
+nav a{
+font-size: 1.4rem;
+ width: 20%;
+    
+}
 .top, .top div{ 
     display: flex;
     flex-direction: column;
