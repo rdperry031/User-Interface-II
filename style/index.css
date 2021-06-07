@@ -114,16 +114,21 @@ p{
 display: flex;
 justify-content: space-around;
 margin: 10% 4% 10% 8%;
-
+width:100%;
+/* flex-wrap: wrap;
+border: 1px solid grey */
 }
 .imageGallery2{
     display: flex;
     justify-content: space-around;
     margin: 10% 4% 10% 8%;
+   width:100%;
     align-items: center;
+    
 }
 img{
     width:75%;
+    /* flex-shrink: 2; */
 }
 .imageGallery2 img{
     width: 85%;
@@ -158,4 +163,10 @@ footer div{
      button:hover{
          background-color: black;
          color:whitesmoke;
+     }
+     .figbutton{
+        width:40%;
+        padding:3%;
+        font-size:1.8rem ;
+        margin: 10% 0;
      }
